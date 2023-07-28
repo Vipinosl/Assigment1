@@ -27,6 +27,7 @@ body{
     border:1px solid rgb(60, 57, 57);
     filter:brightness(1);
     color: aliceblue;
+    /* text-align: justify; */
 }
 .container:before{
     position :absolute;
@@ -46,6 +47,13 @@ h2{
     padding-left: 40px;
     color:white;
     justify-content: center;
+}
+
+.tl{
+    position:absolute;
+    top:0%;
+    left:0%;
+    text-decoration: underline;
 }
 
 
