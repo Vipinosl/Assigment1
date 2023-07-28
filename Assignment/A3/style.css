@@ -1,0 +1,56 @@
+*{
+
+    margin: 0%;
+}
+body{
+    background-image:url("test.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+} 
+
+
+.container{
+    display:grid;
+    grid-template-columns:17% 22% 22% 22% 17% ;
+    grid-template-rows:440px 440px ;
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:40% 40%;
+  position:sticky;
+  justify-content: center;
+}
+.box{
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 30%;
+    border:1px solid rgb(60, 57, 57);
+    filter:brightness(1);
+    color: aliceblue;
+}
+.container:before{
+    position :absolute;
+    content:"";
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background-color: rgba(0,0,0,0.7);
+    height:102%;
+}
+h2{
+    color: gold;
+}
+
+.cube2{
+    padding-left: 40px;
+    color:white;
+    justify-content: center;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,74 @@
+h1 {
+    height: 50px;
+    width: 50px;
+    background-color: #df0d0d;
+    border-radius: 50%;
+    white-space: nowrap;
+    text-align: right;
+    padding-left: 22px;
+    padding-top: 12px;
+  }
+
+.card >img {
+    border-radius: 50%;
+    width: 15em;
+    height: 15em;
+    border-radius: 50%;
+}
+
+.card-container{
+    padding-top: 5%;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.post{
+    font-weight: bold;
+
+}
+
+.verticle_line{  border-left: solid rgb(158, 155, 155);
+    height: 350px;
+
+}
+
+.dot{
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.red{
+    background-color: red;
+}
+
+hr{
+    position :relative;
+    float :right;
+    top: -30px;
+    width:100px;
+    color: #df0d0d;
+}
+
+.name{
+    font-size: larger;
+}
+
+.post{
+    font-size:small ;
+
+}
+
+.link{
+    font-size: small;
+}
