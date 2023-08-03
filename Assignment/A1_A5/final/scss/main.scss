@@ -4,13 +4,16 @@
 }
 
 .container {
-    background-image: url("/images.jpeg");
+    background-image: url("../images.jpeg");
     background-size: cover;
     height: 100vh;
     background-repeat: no-repeat 100% 100%;
     font-family: 'Montserrat';
     color: white;
 
+}
+.middle{
+    margin-left: 100px;
 }
 
 .header {
@@ -54,6 +57,7 @@
     justify-content: space-between;
 
 
+
     .content_small {
         flex: 1;
         font-size: 20px;
@@ -62,6 +66,7 @@
     .content_big{
         font-size: 45px;
         font-weight: 800;
+
     }
     button{
         

@@ -4,12 +4,16 @@
 }
 
 .container {
-  background-image: url("/images.jpeg");
+  background-image: url("../images.jpeg");
   background-size: cover;
   height: 100vh;
   background-repeat: no-repeat 100% 100%;
   font-family: "Montserrat";
   color: white;
+}
+
+.middle {
+  margin-left: 100px;
 }
 
 .header {
